@@ -62,10 +62,7 @@ ventana.configure(bg="#f2f2f2")
 
 
 ruta_actual = os.path.dirname(os.path.abspath(__file__))
-
-
 ruta_imagen = os.path.join(ruta_actual, "logoadmi.jpg")
-
 
 imagen = Image.open(ruta_imagen)
 imagen = imagen.resize((150, 150))
